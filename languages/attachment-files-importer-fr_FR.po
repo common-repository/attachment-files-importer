@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Attachment Files Importer\n"
+"POT-Creation-Date: 2014-01-31 10:38-0500\n"
+"PO-Revision-Date: 2014-01-31 10:40-0500\n"
+"Last-Translator: KristofferLR <klaurinracicot@weareinteractive.ca>\n"
+"Language-Team: KLicheR <kristoffer.lr@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: attachment-files-importer.php:108
+msgid "An error occured."
+msgstr "Une erreur est subvenue."
+
+#: attachment-files-importer.php:109
+msgid "The server URL is not valid, please try again."
+msgstr "L'URL du serveur n'est pas valide, veuillez réessayer."
+
+#: attachment-files-importer.php:130
+msgid "All done."
+msgstr "Complété."
+
+#: attachment-files-importer.php:130
+msgid "Have fun!"
+msgstr "Et voilà!"
+
+#: attachment-files-importer.php:213
+#, php-format
+msgid "No file has been imported from %s."
+msgstr "Aucun fichier n'a été importé depuis %s."
+
+#: attachment-files-importer.php:216
+#, php-format
+msgid "One file has been imported from %s."
+msgstr "Un fichier a été importé depuis %s."
+
+#: attachment-files-importer.php:219
+#, php-format
+msgid "%s files has been imported from %s."
+msgstr "%s fichiers ont été importés depuis %s."
+
+#: attachment-files-importer.php:225
+msgid "One file was already there."
+msgstr "Un fichier était présent."
+
+#: attachment-files-importer.php:228
+#, php-format
+msgid "%s files were already there."
+msgstr "%s fichiers étaient déjà présent."
+
+#: attachment-files-importer.php:230
+msgid "You're media library is synced!"
+msgstr "Votre médiathèque est maintenant synchronisé!"
+
+#: attachment-files-importer.php:256
+msgid "Invalid file type"
+msgstr "Type de fichier invalide"
+
+#: attachment-files-importer.php:347
+msgid "File already exists"
+msgstr "Le fichier existe déjà"
+
+#: attachment-files-importer.php:362
+msgid "Remote server did not respond"
+msgstr "Le serveur distant ne répond pas"
+
+#: attachment-files-importer.php:368
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Le serveur distant a retourné une erreur %1$d %2$s"
+
+#: attachment-files-importer.php:375
+msgid "Remote file is incorrect size"
+msgstr "Le fichier distant est d'un poids incorrect"
+
+#: attachment-files-importer.php:380
+msgid "Zero size file downloaded"
+msgstr "Fichier vide téléchargé"
+
+#: attachment-files-importer.php:386
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Le fichier distant est trop volumineux, la limite est de %s"
+
+#: attachment-files-importer.php:435
+msgid "Import Attachment Files"
+msgstr "Importation de médias"
+
+#: attachment-files-importer.php:442
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Une nouvelle version de cet importateur est disponible. Mettre à jour vers "
+"la version %s assure la compatibilité avec les nouveaux fichiers d'export."
+
+#: attachment-files-importer.php:457
+msgid ""
+"Indicate the URL of the server that contain the attachment files to import. "
+"You can also specified image sizes for automatic resizes or use later use a "
+"plugin like <a href=\"http://wordpress.org/plugins/ajax-thumbnail-rebuild"
+"\">AJAX Thumbnail Rebuild</a> to perform the resizes of the originals images."
+msgstr ""
+"Indiquez l'URL du serveur contenant les médias à importer. Vous pouvez "
+"également spécifier les formats d'images pour lesquels un redimensionnement "
+"automatique doit être effectué ou utiliser ultérieurement une extension "
+"comme <a href=\"http://wordpress.org/plugins/ajax-thumbnail-rebuild\">AJAX "
+"Thumbnail Rebuild</a> afin de performer le redimensionnement des images "
+"originales."
+
+#: attachment-files-importer.php:458
+msgid "Enter the URL of the server, then click Import."
+msgstr "Entrez l'URL du serveur puis cliquez sur Importer."
+
+#: attachment-files-importer.php:465
+msgid "Before you can import files, you will need to fix the following error:"
+msgstr "Avant de pouvoir importer les fichiers, vous devez régler ces erreurs:"
+
+#: attachment-files-importer.php:472
+msgid "Server URL (e.g. <em>http://mywordpress.com</em>):"
+msgstr "URL du serveur (ex.: <em>http://mywordpress.com</em>):"
+
+#: attachment-files-importer.php:476
+msgid "Select which image sizes you want to rebuild"
+msgstr "Sélectionnez quels formats d'image vous souhaitez reconstruire"
+
+#: attachment-files-importer.php:477
+msgid "Toggle all"
+msgstr "Tout basculer"
+
+#: attachment-files-importer.php:486
+msgid "cropped"
+msgstr "rogné"
+
+#: attachment-files-importer.php:493
+msgid "Import and resize"
+msgstr "Importer et redimensionner"
+
+#: attachment-files-importer.php:549
+msgid ""
+"Import attachment files from an external server based on the attachment "
+"entries already presents in your Wordpress installation."
+msgstr ""
+"Importer les médias depuis un serveur externe basé sur les entrés des médias "
+"déjà présentes dans votre installation Wordpress."
+
+#~ msgid ""
+#~ "Indicate the URL of the server that contain the attachment files "
+#~ "corresponding to the attachments of this site and we'll download them "
+#~ "into this site. You can also specified with which image sizes you want "
+#~ "your imported images to be resized."
+#~ msgstr ""
+#~ "Indiquez l'URL du serveur qui contient les médias correspondant au médias "
+#~ "de ce site et ceux-ci seront téléchargés dans ce site."
